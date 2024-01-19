@@ -4,12 +4,12 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import MainLayout from "./layouts/MainLayout.jsx";
-import Home from "./components/Home/Home.jsx";
+import Home from "./components/Pages/HomePage/Home/Home.jsx";
 import About from "./components/About/About.jsx";
 import Contact from "./components/Contact/Contact.jsx";
 import LoginLayout from "./layouts/LoginLayout.jsx";
-import Login from "./components/Login/Login.jsx";
-import Register from "./components/Register/Register.jsx";
+import Login from "./components/Pages/LoginPage/Login/Login.jsx";
+import Register from "./components/Pages/LoginPage/Register/Register.jsx";
 import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
 
 const router = createBrowserRouter([

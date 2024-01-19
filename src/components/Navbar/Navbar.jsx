@@ -10,8 +10,6 @@ const Navbar = () => {
             <Link className='mr-6' to='/contact'>Contact Us</Link>
             <Link className='mr-6' to='/user/login'>Login</Link>
             <Link className='mr-6' to='/user/register'>Register</Link>
-            
-            
         </div>
     );
 };
