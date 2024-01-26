@@ -5,9 +5,23 @@
 *{
     max-width: 1280px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    
    
 }
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.font-great-vibes{
+    font-family: 'Great Vibes', cursive;
+}
+
+.bg-yellowish{
+    background-color: #cc9933;
+}
+
+
 
 /* font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif; */
