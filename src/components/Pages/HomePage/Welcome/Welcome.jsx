@@ -19,7 +19,7 @@ const Welcome = () => {
       </div>
       <div className="w-11/12 lg:w-1/3">
         <h2 className="text-2xl lg:text-4xl font-bold">
-          <span className="font-great-vibes"> Welcome to</span>
+          <span className="font-great-vibes text-[#999966]"> Welcome to</span>
           <br /> My Restaurant
         </h2>
         <p className="mt-4 text-gray-500">
