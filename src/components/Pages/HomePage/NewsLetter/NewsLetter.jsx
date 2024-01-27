@@ -23,9 +23,9 @@ const NewsLetter = () => {
             name=""
             id="newsletter-input"
             placeholder="my@mail.com"
-            className="input input-bordered input-md w-full max-w-xs"
+            className="input input-bordered input-md w-full max-w-xs rounded-xl"
           />
-          <button className="text-[#CC9933] btn btn-outline btn-warning">Subscribe</button>
+          <button className="text-[#CC9933] border border-[#CC9933] py-2 px-4 rounded-xl hover:text-white hover:bg-[#CC9933] ">Subscribe</button>
         </div>
       </div>
     </div>
