@@ -32,6 +32,7 @@ const Welcome = () => {
           <button className="font-bold text-gray-700">About Us</button>
         </div>
       </div>
+      
     </div>
   );
 };

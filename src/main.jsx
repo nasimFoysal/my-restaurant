@@ -12,6 +12,7 @@ import Login from "./components/Pages/LoginPage/Login/Login.jsx";
 import Register from "./components/Pages/LoginPage/Register/Register.jsx";
 import ErrorPage from "./components/ErrorPage/ErrorPage.jsx";
 import Reviews from "./components/Reviews/Reviews.jsx";
+import Reservation from "./components/Reservation/Reservation.jsx";
 
 const router = createBrowserRouter([
   {
@@ -34,7 +35,11 @@ const router = createBrowserRouter([
       {
         path:'/reviews',
         element: <Reviews></Reviews>
-      }
+      },
+      {
+        path:'/reservation',
+        element: <Reservation></Reservation>
+      },
     ],
   },
   {

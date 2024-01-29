@@ -6,12 +6,22 @@ import criticimg2 from "../../assets/review-images/review-critic-2.jpg";
 import userReviewImg1 from "../../assets/review-images/userReview1.webp"
 // import criticimg3 from "../../assets/review-images/review-critic-3.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-regular-svg-icons";
-import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+// import { faStar } from "@fortawesome/free-regular-svg-icons";
+import { faStar }from '@fortawesome/free-solid-svg-icons';
+
 
 const Reviews = () => {
   return (
     <div className="mt-4 mx-auto">
+      <div className="text-center my-10 flex flex-col items-center justify-center border border-dashed  border-x-white border-y-[#13131833] py-7">
+            <h2 className="font-great-vibes text-4xl md:text-6xl text-[#999966]">
+              Critics
+            </h2>
+            <h2 className="text-3xl lg:text-4xl font-semibold md:font-bold ">
+              Reviews
+            </h2>
+            <p className="w-11/12 lg:w-2/3  mt-5">Over the years, many renowned food critics have critiqued our restaurant, in terms of quality of food, cleanliness and hygiene, customer service, price, everall experience and a great many other things. Here are just a few among those.</p>
+          </div>
       {/* critic review 1 */}
       <div className="flex flex-col lg:flex-row items-center justify-between gap-5 bg-[#16191E] rounded-lg">
         <div className="lg:h-[450px] lg:w-[300px] rounded-lg ml-0">
@@ -126,9 +136,17 @@ const Reviews = () => {
       </div>
 
 
-
+      <div className="text-center my-10 flex flex-col items-center justify-center border border-dashed  border-x-white border-y-[#13131833] py-7 mt-12">
+            <h2 className="font-great-vibes text-4xl md:text-6xl text-[#999966]">
+              User
+            </h2>
+            <h2 className="text-3xl lg:text-4xl font-semibold md:font-bold ">
+              Testimonials
+            </h2>
+            <p className="w-11/12 lg:w-2/3 mt-5">We have had thousands of reviews accross our various social media platforms like facebook, twitter, instagram, tiktok etc from our beloved customers who we had the absolute pleasure to host. Here are just a few among them.</p>
+          </div>
       {/* user review carousel */}
-      <div className="h-64 sm:h-[70vh]  mt-56">
+      <div className="h-64 sm:h-[70vh]">
         <Carousel
           onSlideChange={(index) => console.log("onSlideChange()", index)}
         >
@@ -146,7 +164,7 @@ const Reviews = () => {
           </div>
 
           <div
-            className={`flex h-full items-center justify-center relative review-bg-1 z-10`}
+            className={`flex h-full items-center justify-center relative review-bg-2 z-10`}
           >
             <div className="absolute top-0 left-0 h-full w-full bg-[#0f0f137f] rounded-xl"></div>
             <div className="text-center w-[80%] space-y-2 lg:space-y-3 text-white z-20">
@@ -158,7 +176,7 @@ const Reviews = () => {
             </div>
           </div>
           <div
-            className={`flex h-full items-center justify-center relative review-bg-1 z-10`}
+            className={`flex h-full items-center justify-center relative review-bg-3 z-10`}
           >
             <div className="absolute top-0 left-0 h-full w-full bg-[#0f0f137f] rounded-xl"></div>
             <div className="text-center w-[80%] space-y-2 lg:space-y-3 text-white z-20">
@@ -170,7 +188,7 @@ const Reviews = () => {
             </div>
           </div>
           <div
-            className={`flex h-full items-center justify-center relative review-bg-1 z-10`}
+            className={`flex h-full items-center justify-center relative review-bg-4 z-10`}
           >
             <div className="absolute top-0 left-0 h-full w-full bg-[#0f0f137f] rounded-xl"></div>
             <div className="text-center w-[80%] space-y-2 lg:space-y-3 text-white z-20">
@@ -182,7 +200,7 @@ const Reviews = () => {
             </div>
           </div>
           <div
-            className={`flex h-full items-center justify-center relative review-bg-1 z-10`}
+            className={`flex h-full items-center justify-center relative review-bg-5 z-10`}
           >
             <div className="absolute top-0 left-0 h-full w-full bg-[#0f0f137f] rounded-xl"></div>
             <div className="text-center w-[80%] space-y-2 lg:space-y-3 text-white z-20">

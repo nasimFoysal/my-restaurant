@@ -1,0 +1,8 @@
+.reservation-bg{
+    
+        background-image: url("../../assets/reservation.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+ 
+}

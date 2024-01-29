@@ -4,8 +4,13 @@ import {
   faEnvelope,
   faPhoneVolume,
   faLocationDot,
-  
 } from "@fortawesome/free-solid-svg-icons";
+import {
+  faInstagram,
+  faFacebook,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -66,7 +71,7 @@ const Contact = () => {
                   </div>
                   <input
                     type="text"
-                    placeholder="Enter your full name "
+                    placeholder="Enter Your Name"
                     className="input border-0 rounded-xl pl-4 w-full bg-[#13131807]"
                   />
                 </label>
@@ -135,26 +140,22 @@ const Contact = () => {
           </div>
         </div>
 
-
         {/* social media */}
-        <div className="mt-12 flex flex-col items-center justify-center bg-[#13131807] py-9 rounded-xl">
+        <div className="mt-12 flex flex-col items-center justify-center bg-[#131318] text-white py-9 rounded-xl">
           <div>
-            <h2 className="text-[#131318] text-2xl font-extrabold mb-6">
+            <h2 className=" text-2xl font-extrabold mb-6">
               Social Media
             </h2>
-            <div className="flex items-center justify-around">
-              <p>
-              {/* <FontAwesomeIcon icon={faSquareFacebook} /> */}
-              </p>
-              <p>
-                
-              </p>
-              <p>
-             
-              </p>
-              <p>
-               
-              </p>
+            <div className="flex items-center justify-around text-2xl">
+              <Link>
+                <FontAwesomeIcon icon={faFacebook} />
+              </Link>
+              <Link>
+                <FontAwesomeIcon icon={faInstagram} />
+              </Link>
+              <Link>
+                <FontAwesomeIcon icon={faTwitter} />
+              </Link>
             </div>
           </div>
         </div>
